@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3DB9F924533DDC0082A8B4 /* ExpandableFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DB9F824533DDC0082A8B4 /* ExpandableFlowLayout.swift */; };
 		2C3F9F07244B904900660B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F06244B904900660B04 /* AppDelegate.swift */; };
-		2C3F9F09244B904900660B04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F08244B904900660B04 /* SceneDelegate.swift */; };
 		2C3F9F0B244B904900660B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F0A244B904900660B04 /* ViewController.swift */; };
 		2C3F9F0E244B904900660B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F9F0C244B904900660B04 /* Main.storyboard */; };
 		2C3F9F10244B904B00660B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F9F0F244B904B00660B04 /* Assets.xcassets */; };
 		2C3F9F13244B904B00660B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F9F11244B904B00660B04 /* LaunchScreen.storyboard */; };
 		2C3F9F1E244B904B00660B04 /* Expand_CollapseHeaderWithTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F1D244B904B00660B04 /* Expand_CollapseHeaderWithTabsTests.swift */; };
+		2C3F9F2A244B97E000660B04 /* CellScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F29244B97E000660B04 /* CellScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3DB9F824533DDC0082A8B4 /* ExpandableFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableFlowLayout.swift; sourceTree = "<group>"; };
 		2C3F9F03244B904900660B04 /* Expand-CollapseHeaderWithTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expand-CollapseHeaderWithTabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F9F06244B904900660B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C3F9F08244B904900660B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C3F9F0A244B904900660B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C3F9F0D244B904900660B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3F9F0F244B904B00660B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		2C3F9F19244B904B00660B04 /* Expand-CollapseHeaderWithTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expand-CollapseHeaderWithTabsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F9F1D244B904B00660B04 /* Expand_CollapseHeaderWithTabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expand_CollapseHeaderWithTabsTests.swift; sourceTree = "<group>"; };
 		2C3F9F1F244B904B00660B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3F9F29244B97E000660B04 /* CellScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3DB9F724533DD20082A8B4 /* flowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DB9F824533DDC0082A8B4 /* ExpandableFlowLayout.swift */,
+			);
+			path = flowLayout;
+			sourceTree = "<group>";
+		};
 		2C3F9EFA244B904900660B04 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +89,9 @@
 		2C3F9F05244B904900660B04 /* Expand-CollapseHeaderWithTabs */ = {
 			isa = PBXGroup;
 			children = (
+				2C3DB9F724533DD20082A8B4 /* flowLayout */,
+				2C3F9F28244B97A500660B04 /* cell */,
 				2C3F9F06244B904900660B04 /* AppDelegate.swift */,
-				2C3F9F08244B904900660B04 /* SceneDelegate.swift */,
 				2C3F9F0A244B904900660B04 /* ViewController.swift */,
 				2C3F9F0C244B904900660B04 /* Main.storyboard */,
 				2C3F9F0F244B904B00660B04 /* Assets.xcassets */,
@@ -97,6 +108,14 @@
 				2C3F9F1F244B904B00660B04 /* Info.plist */,
 			);
 			path = "Expand-CollapseHeaderWithTabsTests";
+			sourceTree = "<group>";
+		};
+		2C3F9F28244B97A500660B04 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F9F29244B97E000660B04 /* CellScrollView.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +221,8 @@
 			files = (
 				2C3F9F0B244B904900660B04 /* ViewController.swift in Sources */,
 				2C3F9F07244B904900660B04 /* AppDelegate.swift in Sources */,
-				2C3F9F09244B904900660B04 /* SceneDelegate.swift in Sources */,
+				2C3F9F2A244B97E000660B04 /* CellScrollView.swift in Sources */,
+				2C3DB9F924533DDC0082A8B4 /* ExpandableFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +383,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Expand-CollapseHeaderWithTabs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.solutionplus.Expand-CollapseHeaderWithTabs";
+				PRODUCT_BUNDLE_IDENTIFIER = "Expand-CollapseHeaderWithTabs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,12 +401,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Expand-CollapseHeaderWithTabs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.solutionplus.Expand-CollapseHeaderWithTabs";
+				PRODUCT_BUNDLE_IDENTIFIER = "Expand-CollapseHeaderWithTabs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
