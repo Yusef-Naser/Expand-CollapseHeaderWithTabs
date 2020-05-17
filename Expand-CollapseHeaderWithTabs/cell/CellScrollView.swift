@@ -18,8 +18,8 @@ class CellScrollView : UICollectionViewCell {
         containerView.leadingAnchor.constraint(equalTo: s.leadingAnchor , constant: 0).isActive = true
         containerView.trailingAnchor.constraint(equalTo: s.trailingAnchor , constant: 0).isActive = true
         containerView.bottomAnchor.constraint(equalTo: s.bottomAnchor , constant: 0).isActive = true
-        
         containerView.widthAnchor.constraint(equalTo: s.widthAnchor , multiplier: 1).isActive = true
+        containerView.heightAnchor.constraint(greaterThanOrEqualTo: s.heightAnchor , multiplier: 1.01).isActive = true 
          
         return s
     }()
@@ -92,7 +92,7 @@ class CellScrollView : UICollectionViewCell {
         stackViews.topAnchor.constraint(equalTo: containerView.topAnchor , constant: 8 ).isActive = true
         stackViews.leadingAnchor.constraint(equalTo: containerView.leadingAnchor , constant: 8).isActive = true
         stackViews.trailingAnchor.constraint(equalTo: containerView.trailingAnchor , constant: -8).isActive = true
-        stackViews.bottomAnchor.constraint(equalTo: containerView.bottomAnchor , constant: -8).isActive = true
+        stackViews.bottomAnchor.constraint(lessThanOrEqualTo: containerView.bottomAnchor , constant: -8).isActive = true
         
     }
     

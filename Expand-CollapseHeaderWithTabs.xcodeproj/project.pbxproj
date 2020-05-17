@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3C1DA92457CA2F00492056 /* CustomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C1DA82457CA2F00492056 /* CustomTable.swift */; };
+		2C3C1DAB2457CB7600492056 /* CellTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C1DAA2457CB7600492056 /* CellTableView.swift */; };
 		2C3DB9F924533DDC0082A8B4 /* ExpandableFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DB9F824533DDC0082A8B4 /* ExpandableFlowLayout.swift */; };
 		2C3F9F07244B904900660B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F06244B904900660B04 /* AppDelegate.swift */; };
 		2C3F9F0B244B904900660B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F9F0A244B904900660B04 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3C1DA82457CA2F00492056 /* CustomTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTable.swift; sourceTree = "<group>"; };
+		2C3C1DAA2457CB7600492056 /* CellTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableView.swift; sourceTree = "<group>"; };
 		2C3DB9F824533DDC0082A8B4 /* ExpandableFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableFlowLayout.swift; sourceTree = "<group>"; };
 		2C3F9F03244B904900660B04 /* Expand-CollapseHeaderWithTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expand-CollapseHeaderWithTabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F9F06244B904900660B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3C1DA72457CA2200492056 /* customTable */ = {
+			isa = PBXGroup;
+			children = (
+				2C3C1DA82457CA2F00492056 /* CustomTable.swift */,
+			);
+			path = customTable;
+			sourceTree = "<group>";
+		};
 		2C3DB9F724533DD20082A8B4 /* flowLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 		2C3F9F05244B904900660B04 /* Expand-CollapseHeaderWithTabs */ = {
 			isa = PBXGroup;
 			children = (
+				2C3C1DA72457CA2200492056 /* customTable */,
 				2C3DB9F724533DD20082A8B4 /* flowLayout */,
 				2C3F9F28244B97A500660B04 /* cell */,
 				2C3F9F06244B904900660B04 /* AppDelegate.swift */,
@@ -114,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				2C3F9F29244B97E000660B04 /* CellScrollView.swift */,
+				2C3C1DAA2457CB7600492056 /* CellTableView.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -221,6 +235,8 @@
 			files = (
 				2C3F9F0B244B904900660B04 /* ViewController.swift in Sources */,
 				2C3F9F07244B904900660B04 /* AppDelegate.swift in Sources */,
+				2C3C1DA92457CA2F00492056 /* CustomTable.swift in Sources */,
+				2C3C1DAB2457CB7600492056 /* CellTableView.swift in Sources */,
 				2C3F9F2A244B97E000660B04 /* CellScrollView.swift in Sources */,
 				2C3DB9F924533DDC0082A8B4 /* ExpandableFlowLayout.swift in Sources */,
 			);
